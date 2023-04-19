@@ -15,8 +15,10 @@ _website design project_
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
 Site published at: https://front-end-by-rimantas.github.io/43-grupe-portfolio/
-
 Design: [Personal](https://preview.colorlib.com/theme/personal/)
+Site published at: https://front-end-by-rimantas.github.io/43-grupe-portfolio-personal/
+
+Design: [Personal](https://preview.colorlib.com/theme/personal/index.html)
 
 ## 🎯 Project features/goals
 
@@ -51,7 +53,11 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
+<<- Header ->>
     git clone https://github.com/front-end-by-rimantas/43-grupe-portfolio.git
+
+    git clone https://github.com/front-end-by-rimantas/40-grupe-portfolio.git
+<<- develop ->>
     ```
 2. Install NPM packages
     ```sh
@@ -81,3 +87,4 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 ## 🔗 Other resources
 
 https://randomuser.me/photos
+
