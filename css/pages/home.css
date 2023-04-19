@@ -2,7 +2,7 @@
 @import '../base/base.css';
 @import '../base/layout.css';
 @import '../components/text-styles.css';
-@import '../commponents/header.css';
+@import '../components/header.css';
 @import '../components/counter.css';
 @import '../components/button.css';
 
@@ -37,6 +37,15 @@
 /* My Offered Services: end */
 
 /* Blue section count: start */
+h3 {
+    text-transform: capitalize;
+    font-size: 36px;
+}
+
+p {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+}
 /* Blue section count: end */
 
 /* Our Latest Featured Projects: start */
@@ -54,13 +63,50 @@
     justify-content: center;
     gap: 40px;
 }
-.vectors > .vector {
+.vector {
    text-align: center;
-   list-style: none;
    color: #222;
    font-size: 12px;
    font-weight: 500;
    margin-top: 40px;
+   text-decoration: none;
+}
+.vector:hover {
+    color: #8490ff;
+}
+.gallery > .gallery-display {
+    margin-top: -90px;
+}
+.pic-gallery {
+    text-align: center;
+    max-width: 1100px;
+}
+.gallery-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.gallery-description {
+    padding: 20px 0px;
+}
+.gallery-description > h4 {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 600;
+}
+.gallery-description > div {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+}
+@media only screen and (max-width: 425px) {
+    .pic-wrap > img {
+        height: auto;
+        width: 90%;
+    }
+    .vectors {
+        flex-wrap: wrap;
+        gap: 0px 20px;
+    }
 }
 
 /* Our Latest Featured Projects: end */
@@ -72,15 +118,6 @@
 /* Latest Posts From Our Blog: end */
 
 /* Blue labels section: start */
-h3 {
-    text-transform: capitalize;
-    font-size: 36px;
-}
-
-p {
-    color: rgb(119, 119, 119);
-    font-size: 14px;
-}
 /* Blue labels section: end */
 
 /* footer: start */
