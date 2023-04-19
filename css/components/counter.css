@@ -1,7 +1,6 @@
 .counter_area { 
     background: -webkit-linear-gradient(0deg, rgb(132, 144, 255) 0%, rgb(98, 189, 252) 100%);
     color: rgb(255, 255, 255);
-    font-family: "Poppins", sans-serif;
     padding: 60px 0;
 }
 
@@ -23,7 +22,7 @@ box-sizing: border-box;
 color: rgb(255, 255, 255);
 }
 
-.text {
+.textwhite {
 text-align: center;
 font-size: 14px;
 font-weight: 300;
@@ -46,7 +45,6 @@ color: rgb(255, 255, 255);
     flex-grow: 0;
     flex-shrink: 0;
     text-align: center;
-    position: relative;
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
