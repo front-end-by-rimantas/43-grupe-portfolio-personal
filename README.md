@@ -87,11 +87,3 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 ## 🔗 Other resources
 
 https://randomuser.me/photos
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> ff4efa8d951fac32919e9a197d52f027a1ee3b63
-=======
-
->>>>>>> ff4efa8d951fac32919e9a197d52f027a1ee3b63
