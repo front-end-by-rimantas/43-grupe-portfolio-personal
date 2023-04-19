@@ -2,7 +2,7 @@
 @import '../base/base.css';
 @import '../base/layout.css';
 @import '../components/text-styles.css';
-@import '../commponents/header.css'
+@import '../commponents/header.css';
 @import '../components/counter.css';
 @import '../components/button.css';
 
@@ -40,6 +40,15 @@
 /* Blue section count: end */
 
 /* Our Latest Featured Projects: start */
+
+.future-projects > .topic {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.future-projects > .text {
+    text-align: center;
+}
+
 /* Our Latest Featured Projects: end */
 
 /* Client’s Feedback About Me: start */
