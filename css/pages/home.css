@@ -2,8 +2,8 @@
 @import '../base/base.css';
 @import '../base/layout.css';
 @import '../components/text-styles.css';
+@import '../components/counter.css';
 @import '../components/button.css';
-
 
 /* 3rd-party */
 
@@ -47,6 +47,15 @@
 /* Latest Posts From Our Blog: end */
 
 /* Blue labels section: start */
+h3 {
+    text-transform: capitalize;
+    font-size: 36px;
+}
+
+p {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+}
 /* Blue labels section: end */
 
 /* footer: start */
