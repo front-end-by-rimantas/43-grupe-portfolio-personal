@@ -1,0 +1,16 @@
+.btn {
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    padding: 15px 30px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.btn:hover {
+    box-shadow: 0 20px 20px #c8ccf1;
+}
