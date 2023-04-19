@@ -48,6 +48,20 @@
 .future-projects > .text {
     text-align: center;
 }
+.vectors{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.vectors > .vector {
+   text-align: center;
+   list-style: none;
+   color: #222;
+   font-size: 12px;
+   font-weight: 500;
+   margin-top: 40px;
+}
 
 /* Our Latest Featured Projects: end */
 
