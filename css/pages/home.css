@@ -3,6 +3,7 @@
 @import '../base/layout.css';
 @import '../components/text-styles.css';
 @import '../components/counter.css';
+@import '../components/button.css';
 
 /* 3rd-party */
 
@@ -17,6 +18,17 @@
 /* hero: end */
 
 /* about me: start */
+.about-me-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.topic-name {
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+}
+
 /* about me: end */
 
 /* My Offered Services: start */
