@@ -6,6 +6,11 @@
 @import '../components/counter.css';
 @import '../components/button.css';
 @import '../components/plans.css';
+@import '../components/header.css';
+@import '../components/counter.css';
+@import '../components/button.css';
+@import '../components/footer.css';
+@import '../components/form.css';
 
 
 /* 3rd-party */
@@ -41,24 +46,131 @@
 /* Blue section count: end */
 
 /* Our Latest Featured Projects: start */
+
+.future-projects > .topic {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.future-projects > .text {
+    text-align: center;
+}
+.vectors{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.vector {
+   text-align: center;
+   color: #222;
+   font-size: 12px;
+   font-weight: 500;
+   margin-top: 40px;
+   text-decoration: none;
+   cursor: pointer;
+}
+.vector:hover {
+    color: #8490ff;
+}
+.gallery > .gallery-display {
+    margin-top: -90px;
+}
+.pic-gallery {
+    text-align: center;
+    max-width: 1100px;
+}
+.gallery-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.gallery-description {
+    padding: 20px 0px;
+}
+.gallery-description > h4 {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 600;
+}
+.gallery-description > div {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+}
+@media only screen and (max-width: 425px) {
+    .pic-wrap > img {
+        height: auto;
+        width: 90%;
+    }
+    .vectors {
+        flex-wrap: wrap;
+        gap: 0px 20px;
+    }
+}
+
 /* Our Latest Featured Projects: end */
 
 /* Client’s Feedback About Me: start */
+.clients-feedback {
+    background-color: #F9F9FF;
+}
+.clients-feedback-topic > h2,
+.clients-feedback-topic > p {
+    text-align: center;
+}
+.clients-feedback-topic > p{
+    margin-top: 20px;
+}
+.block {
+    background-color: white;
+    padding: 30px;
+    padding-left: 100px;
+    position: relative;
+}
+.block > img {
+    position: absolute;
+    width: 40px;
+    left: 30px;
+}
+.block > .a {
+    margin-bottom: 20px;
+}
+.block > .b {
+    margin-top: 10px;
+}
+.block > a {
+    font-size: 18px;
+    color: #222222;
+    font-weight: 600;
+    text-decoration: none;
+}
+.block > a:hover {
+    color: #8490ff;
+}
 /* Client’s Feedback About Me: end */
 
 /* Latest Posts From Our Blog: start */
 /* Latest Posts From Our Blog: end */
 
 /* Blue labels section: start */
-h3 {
-    text-transform: capitalize;
-    font-size: 36px;
+.blue-labels {
+    background: -webkit-linear-gradient(0deg, rgb(132, 144, 255) 0%, rgb(98, 189, 252) 100%);
+    padding: 30px 0;
+}
+.blue-row .blue-content {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
+}
+.blue-content > img{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.blue-content > img:hover{
+    opacity: 1;
 }
 
-p {
-    color: rgb(119, 119, 119);
-    font-size: 14px;
-}
 /* Blue labels section: end */
 
 /* Choose Your Plan: start */
