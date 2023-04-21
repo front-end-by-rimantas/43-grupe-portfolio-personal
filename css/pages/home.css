@@ -104,6 +104,13 @@
 /* Our Latest Featured Projects: end */
 
 /* Client’s Feedback About Me: start */
+.Clients-feedback-topic > h2,
+.Clients-feedback-topic > p {
+    text-align: center;
+}
+.Clients-feedback-topic > p{
+    margin-top: 20px;
+}
 /* Client’s Feedback About Me: end */
 
 /* Latest Posts From Our Blog: start */
