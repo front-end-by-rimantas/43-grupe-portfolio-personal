@@ -2,9 +2,10 @@
 @import '../base/base.css';
 @import '../base/layout.css';
 @import '../components/text-styles.css';
-@import '../commponents/header.css'
+@import '../commponents/header.css';
 @import '../components/counter.css';
 @import '../components/button.css';
+@import '../components/plans.css';
 
 
 /* 3rd-party */
@@ -59,6 +60,13 @@ p {
     font-size: 14px;
 }
 /* Blue labels section: end */
+
+/* Choose Your Plan: start */
+h4 {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+/* Choose Your Plan: end */
 
 /* footer: start */
 /* footer: end */
