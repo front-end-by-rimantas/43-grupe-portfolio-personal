@@ -104,12 +104,41 @@
 /* Our Latest Featured Projects: end */
 
 /* Client’s Feedback About Me: start */
-.Clients-feedback-topic > h2,
-.Clients-feedback-topic > p {
+.clients-feedback {
+    background-color: #F9F9FF;
+}
+.clients-feedback-topic > h2,
+.clients-feedback-topic > p {
     text-align: center;
 }
-.Clients-feedback-topic > p{
+.clients-feedback-topic > p{
     margin-top: 20px;
+}
+.block {
+    background-color: white;
+    padding: 30px;
+    padding-left: 100px;
+    position: relative;
+}
+.block > img {
+    position: absolute;
+    width: 40px;
+    left: 30px;
+}
+.block > .a {
+    margin-bottom: 20px;
+}
+.block > .b {
+    margin-top: 10px;
+}
+.block > a {
+    font-size: 18px;
+    color: #222222;
+    font-weight: 600;
+    text-decoration: none;
+}
+.block > a:hover {
+    color: #8490ff;
 }
 /* Client’s Feedback About Me: end */
 
