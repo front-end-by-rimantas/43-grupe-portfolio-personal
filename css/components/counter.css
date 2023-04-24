@@ -1,0 +1,52 @@
+.counter_area { 
+    background: -webkit-linear-gradient(0deg, rgb(132, 144, 255) 0%, rgb(98, 189, 252) 100%);
+    color: rgb(255, 255, 255);
+    padding: 60px 0;
+}
+
+.counter {
+font-size: 36px;
+font-weight: 700;
+height: 43px;
+line-height: 43.2px;
+margin-block-end: 0px;
+margin-block-start: 0px;
+margin-bottom: 0px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+margin-top: 0px;
+text-align: center;
+text-size-adjust: 100%;
+width: 210px;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+}
+
+.textwhite {
+text-align: center;
+font-size: 14px;
+font-weight: 300;
+height: 22px;
+line-height: 22.75px;
+margin-block-end: 16px;
+margin-block-start: 0px;
+margin-bottom: 16px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+margin-top: 0px;
+text-size-adjust: 100%;
+width: 210px;
+position: relative;
+color: rgb(255, 255, 255);
+}
+
+.counter_numbers {
+    flex-basis: 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: center;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
