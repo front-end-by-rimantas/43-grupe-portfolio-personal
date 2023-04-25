@@ -7,16 +7,6 @@
     padding: 50px 50px;
 }
 
-.plan-title {
-    font-size: 36px; 
-    font-weight: 700;
-}
-
-.description {
-    color: rgb(119, 119, 119);
-    padding-bottom: 20px;
-}
-
 .columns {
     display: flex;
     flex-wrap: wrap;
@@ -69,13 +59,13 @@
 }
 
 .single-plan .package-list ul li {
-    border-top: 1px solid var(--light-border);
+    border-top: 1px solid rgb(238, 238, 238);
     margin-top: 10px;
     padding-top: 10px;
 }
 
 .single-plan .package-list ul li:last-child {
-    border-bottom: 1px solid var(--light-border);
+    border-bottom: 1px solid rgb(238, 238, 238);
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
