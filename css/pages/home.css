@@ -116,6 +116,7 @@
     max-height: 100%;
 }
 .gallery-description {
+    text-align: center;
     padding: 20px 0px;
 }
 .gallery-description > h4 {
@@ -206,10 +207,7 @@
 /* Blue labels section: end */
 
 /* Choose Your Plan: start */
-h4 {
-    text-transform: capitalize;
-    font-size: 18px;
-}
+
 /* Choose Your Plan: end */
 
 /* footer: start */
