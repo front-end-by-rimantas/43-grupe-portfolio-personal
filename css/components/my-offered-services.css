@@ -1,6 +1,14 @@
 .services-container {
   text-align: center;
-  margin-top: 50px;
+  padding-top: 0;
+}
+
+.services-container .topic {
+  margin-bottom: 15px;
+}
+
+.services-container .text {
+  margin-bottom: -30px;
 }
 
 .services1 {
@@ -13,24 +21,18 @@
 }
 
 .services1 > span {
-  font-size: 40px;
+  font-size: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 55px;
-  height: 55px;
+  color: #222;
 }
 
 .services1 > a {
   font-size: 17px;
   font-weight: bold;
   text-decoration: none;
-  color: black;
-}
-
-.services1 > p {
-  font-size: 15px;
-  color: #777777;
+  color: #212529;;
 }
 
 .services1:hover {

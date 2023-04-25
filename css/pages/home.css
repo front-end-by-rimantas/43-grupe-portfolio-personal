@@ -55,6 +55,9 @@
 /* hero: end */
 
 /* about me: start */
+.about-me-section {
+    padding-bottom: 0;
+}
 .about-me-content {
     display: flex;
     flex-direction: column;
