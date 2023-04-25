@@ -1,9 +1,12 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
-@import '../components/text-styles.css';
+
+/* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
+
+/* components */
 @import '../commponents/header.css';
-@import '../components/counter.css';
 @import '../components/button.css';
 @import '../components/my-offered-services.css';
 @import '../components/plans.css';
@@ -11,11 +14,6 @@
 @import '../components/counter.css';
 @import '../components/button.css';
 @import '../components/footer.css';
-@import '../components/form.css';
-
-/* 3rd-party */
-
-/* components */
 
 /* CUSTOM STYLE */
 
@@ -23,6 +21,37 @@
 /* header: end */
 
 /* hero: start */
+.hero-section {
+    background-color: #F9F9FF;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: baseline;
+    gap: 20px;
+}
+.hero-section .topic-name {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+    letter-spacing: 2px;
+    margin-top: 140px;
+}
+.hero-section .topic-big {
+    font-size: 60px;
+    font-weight: 600;
+    color: #222222;
+}
+
 /* hero: end */
 
 /* about me: start */
