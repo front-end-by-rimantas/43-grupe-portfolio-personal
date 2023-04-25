@@ -1,0 +1,49 @@
+.footer {
+    background-color: #04091e;
+}
+.footer .tittle {
+    color: #fff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.footer .record {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.footer .lib {
+    text-decoration: none;
+    color: #8490ff;
+}
+.footer .input {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    width: 90%;
+    padding: 10px 15px;
+    position: relative;
+    height: 40px;
+    border: none;
+}
+.custom-search-botton {
+    padding: 12px;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #8490ff;
+    border: none;
+    height:inherit;
+    cursor: pointer;
+}
+.socials > a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.socials > a:hover{
+    color: #8490ff;
+}
+
