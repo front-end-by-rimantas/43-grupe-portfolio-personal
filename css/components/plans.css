@@ -16,6 +16,7 @@
 }
 
 .single-plan {
+    background-color: #f9f9ff;
     padding: 35px 15px;
     text-align: center;
 }
@@ -74,4 +75,51 @@
     font-size: 36px;
     font-weight: bold;
     color: black;
+}
+
+.single-plan:hover {
+    background: var(--color-blue-gradiant);
+    transform: scale(1.05);
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(to right,  #8490ff 0%,#62bdfc 100%);
+    transform: scale(1.05);
+    transition: all 300ms;
+}
+
+.single-plan:hover .top .package-number {
+    cursor: pointer;
+    background: linear-gradient(to right,  #8490ff 0%,#62bdfc 100%);
+    border-radius: 100px;
+    border: 30px solid #9CC1FD;
+}
+
+.single-plan:hover .package-list ul {
+    cursor: pointer;
+    color: #F9F9FF;
+}
+
+
+.buy-now {
+    width: 100%;
+    font-size: 14px;
+    color: var(--main-black);
+    font-weight: 600;
+    background-color: #fff;
+    color: #000000;
+    background-image: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: none;
+    display: none;
+    text-decoration: none; 
+}
+
+.single-plan:hover .price {
+    display: none;
+}
+
+.single-plan:hover .buy-now {
+    display: inline-block;
 }
