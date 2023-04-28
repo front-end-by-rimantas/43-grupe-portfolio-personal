@@ -1,9 +1,10 @@
 // IMPORTS
-
+import { header } from '../components/header.js';
 
 // FUNCTION EXECUTION
 
 /* header: start */
+header();
 /* header: end */
 
 /* hero: start */
