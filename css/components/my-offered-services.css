@@ -1,0 +1,42 @@
+.services-container {
+  text-align: center;
+  padding-top: 0;
+}
+
+.services-container .topic {
+  margin-bottom: 15px;
+}
+
+.services-container .text {
+  margin-bottom: -30px;
+}
+
+.services1 {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.services1 > span {
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+}
+
+.services1 > a {
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #212529;;
+}
+
+.services1:hover {
+  background-image: linear-gradient(to right, #8490ff, #62bdfc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
